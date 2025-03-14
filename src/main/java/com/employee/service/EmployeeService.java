@@ -9,4 +9,5 @@ import com.employee.dto.Employee;
 public interface EmployeeService {
 
 	public Employee createEmployee(Employee employee);
+	public Employee getEmployee(Long number);
 }

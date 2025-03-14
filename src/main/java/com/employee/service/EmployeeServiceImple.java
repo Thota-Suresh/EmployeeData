@@ -17,4 +17,9 @@ public class EmployeeServiceImple implements EmployeeService {
 		return dao.save(employee);
 	}
 
+	@Override
+	public Employee getEmployee(Long number) {
+		return dao.getById(number);
+	}
+
 }
