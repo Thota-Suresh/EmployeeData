@@ -19,7 +19,7 @@ public class EmployeeServiceImple implements EmployeeService {
 
 	@Override
 	public Employee getEmployee(Long number) {
-		return dao.getById(number);
+		return dao.findById(number).get();
 	}
 
 }
